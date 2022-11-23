@@ -78,7 +78,7 @@ border-bottom: #28a745  2px solid;
 
 .header{
 
-    background: url('../images/home/showcase.jpg') no-repeat center center/cover;
+    background: url('../images/home/skyscrapers.jpg') no-repeat center center/cover;
     width:100%;
     height:100vh;
     position: relative;
@@ -92,9 +92,8 @@ border-bottom: #28a745  2px solid;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-
-
+    text-align: center;  
+    
 }
 
 .h1__header{
@@ -109,7 +108,116 @@ border-bottom: #28a745  2px solid;
 
 
 
+.header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
 
+/* EVERYTHING THAT IS IN  HERO BRING IT IN FRONT BEFORE */
+.header *{
+    z-index: 10;  
+}
+
+
+.about__icons-wrapper{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top:30px;
+
+    
+    
+}
+
+.about__header{
+
+    font-weight: bold;
+    margin:15px 0;
+
+    
+}
+
+
+.icon{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+   
+
+}
+
+.icon i{
+
+    background-color: #28a745;
+    border-radius:50%;
+    padding:10px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top:10px;
+    width:50px;
+
+
+}
+
+.about__para{
+    text-align: center;
+    
+}
+
+.about__header{
+
+    text-align: center;
+}
+
+.img__wrapper, .solutions__description__wrapper{
+
+    width:50%;
+}
+
+.solutions__img{
+    width:100%;
+    opacity:0.9
+}
+.solutions__wrapper{
+    display: flex;
+    gap:5px;
+}
+
+.solutions__description__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:50%;
+    
+}
+
+.solutions__header{
+    text-align: center;
+    font-size:3rem;
+    max-width: 120%;
+
+}
+
+.solutions__para{
+font-size:1.5rem;
+text-align: center;
+}
+
+.solutions__btn{
+
+    
+}
 
 
 
