@@ -272,6 +272,7 @@ padding:20px;
 
 .team__description-header{
   font-size:3rem;
+  text-align: center;
 
 }
 
@@ -298,5 +299,47 @@ align-items: center;
 
   width:100%;
   border-radius: 30px;
+}
+
+
+/* contact Form */
+
+
+
+.contact__form{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+gap:10px;
+}
+
+.contact__form input{
+
+  width:100%;
+  padding: 5px;
+}
+
+.form__wrapper{
+  background-color: rgb(231, 228, 228);
+  width:50%;
+  padding: 0 15px;
+
+}
+
+#textarea{
+  padding:5px;
+  width:100%;
+
+}
+
+.contact__form input[type='submit']{
+background-color: #28a745;
+  color:#f9fafb;
+}
+
+.form__wrapper > h2{
+font-size:1.5rem;
+
 }
 
