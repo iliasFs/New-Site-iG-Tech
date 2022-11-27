@@ -106,9 +106,22 @@ img {
   background: rgba(0, 0, 0, 0.5);
 }
 
-/* EVERYTHING THAT IS IN  HERO BRING IT IN FRONT BEFORE */
+.about__icon {
+  text-align: center;
+  position: absolute;
+  top: 460px;
+  left: 0;
+  width: 100%;
+  font-size: 100px;
+}
+
+/* EVERYTHING THAT IS IN HEADER BRING IT IN FRONT BEFORE */
 .header * {
   z-index: 10;
+}
+
+.about {
+  position: relative;
 }
 
 .about__icons-wrapper {
@@ -289,7 +302,7 @@ img {
 /* contact Form */
 
 .contact__form {
-  width:100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -310,14 +323,12 @@ img {
   padding: 0 15px;
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-  
-  
 }
 
 #textarea {
-  border:none;
+  border: none;
   padding: 10px;
   width: 100%;
   border-radius: 10px;
@@ -332,18 +343,48 @@ img {
 .form__wrapper > h2 {
   font-size: 3rem;
   text-align: center;
-  padding-bottom:2.5rem;
-  
+  padding-bottom: 2.5rem;
 }
 
-
-.contact__form input:focus  {
- 
+.contact__form input:focus {
   outline-color: #28a745;
   outline-width: 10px;
 }
 
-
-.contact__form textarea:focus{
+.contact__form textarea:focus {
   outline-color: #28a745;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  height: 100%;
+}
+
+.social_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 20px;
+}
+
+.social_wrapper > * {
+  color: white;
+}
+
+footer > p {
+  color: white;
+}
+
+.social_wrapper i {
+  font-size: 20px;
+}
+
+.social_wrapper i:hover {
+  color: #28a745;
 }
