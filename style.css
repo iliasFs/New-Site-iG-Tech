@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -51,9 +55,16 @@ img {
   color: white;
   width: 100%;
   height: 75px;
-  /*   We stick the navbar to the top */
+  position:fixed;/*   We stick the navbar to the top */
   padding: 0 30px;
   margin: 0 auto;
+  transition:all 1s ease;
+
+}
+
+#nav__bar.top{
+
+  background: transparent;
 }
 
 .nav__bar li {
@@ -401,6 +412,7 @@ i {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  padding:10px 30px;
 }
 
 .contact__form input {
@@ -627,6 +639,31 @@ align-items: center;
 .blog__description a{
   background-color: black;
   
+}
+
+.blog2__wrapper{
+  flex-direction: row-reverse;
+}
+
+
+/* Post Inner page */
+
+.post p{
+
+  max-width:80%;
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:50px 50px;
+  
+}
+
+.post__body{
+  background-color: rgb(188, 185, 185);
 }
 
 

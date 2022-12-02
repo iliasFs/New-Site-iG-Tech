@@ -1,51 +1,40 @@
-.green{
-
-color:#28a745;
+.green {
+  color: #28a745;
 }
 
-.blue{
-
-    color:#0284d0;
+.blue {
+  color: #0284d0;
 }
 
-.dark{
-
-    color:#333;
+.dark {
+  color: #333;
 }
 
-.light{
-
-    color:#f3f3f3
+.light {
+  color: #f3f3f3;
 }
 
-
-
-.btn{
-    color:white;
-    background-color: #28a745;
-    font-size:0.8rem;
-    margin-top:14px;
-    cursor: pointer;
-    padding:5px 10px;
-    border-radius: 5px;
-    border:none;
-    transition: all 300ms  ease;
+.btn {
+  color: white;
+  background-color: #28a745;
+  font-size: 0.8rem;
+  margin-top: 14px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 300ms ease;
 }
 
-.btn:hover{
-
-    opacity:0.8;
-    transform: translateY(-3px);
-
+.btn:hover {
+  opacity: 0.8;
+  transform: translateY(-3px);
 }
 
-.margin{
-
-    margin:200px 0px;
+.margin {
+  margin: 200px 0px;
 }
 
-.white{
-    color:white;
+.white {
+  color: white;
 }
-
-
